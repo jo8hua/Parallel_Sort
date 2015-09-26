@@ -1,21 +1,7 @@
-CSE 6220 Programming Assignment 2
-=================================
+This project was completed for the Georgia Institute of Technology High Performance Computing (CSE 6221) course. The authorship of Patrick Flick patrick.flick@gmail.com and corresponding copywrite belonging to the Georgia Institute of Technology is established for the project organization and outline. All subroutines and files not containing copywrite have been implemented by Joshua Howard joshthoward@gmail.com in completion of this course.
 
-## Code hosting
+The jacobi.cpp, mpi_jacobi.cpp, main.cpp, and utils_jacobi.cpp files and their respective header files correspond to the parallel implementation of Jacobi's iterative method to solve a system of linear equations. This method is only convergent for diagonally dominant systems, and therefore will not always converge.
 
-You are highly encouraged to use a code version management tool such as git.
-This will help you to code in a team and keep track of your progress.
-
-However, do not upload your code to public repositories. If you want to use
-version management for collaboration, make sure to use private repositories.
-
-I highly recommend using Georgia Tech's Enterprise Github installation at
-https://github.gatech.edu/
-
-We will also be hosting the framework code for the programming assignment on
-there.  If you find any issues with the code framework and we have to make
-changes, we will publish those changes in that GitHub repository additionally to
-sending out the updated framework.
 
 ## Code structure
 
