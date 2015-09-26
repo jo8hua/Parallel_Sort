@@ -1,3 +1,15 @@
+/**
+ * @file    io.h
+ * @author  Patrick Flick <patrick.flick@gmail.com>
+ * @brief   Implements common IO and input generation functions.
+ *
+ * Copyright (c) 2014 Georgia Institute of Technology. All Rights Reserved.
+ */
+
+/*********************************************************************
+ *                  !!  DO NOT CHANGE THIS FILE  !!                  *
+ *********************************************************************/
+
 #include "io.h"
 
 std::vector<int> scatter_stream_block_decomp_slave(MPI_Comm comm) {
